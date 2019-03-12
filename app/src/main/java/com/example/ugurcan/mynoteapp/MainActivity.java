@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
         notesAdapter = new NotesAdapter(this, notesArrayList);
         recyclerView.setAdapter(notesAdapter);
 
-        //Notes n1 = new Notes("","Ol Artık Başlık","İçerik Ol Artık","11.03.2020");
+       
 
 
         bringAllNotes();
